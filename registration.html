@@ -8,79 +8,33 @@
 
     <title>WriterTalks | Register</title>
 
-    <style>
-      body, html {height: 100%;}
-      .bgimg {
-        min-height: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-        position: fixed;
-      }
-      </style>
+ 
   </head>
   
   
   <body>
 
-    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-      <center>
-      <div class="w3-display-middle">
-        <h1 class="w3-animate-top" style="color: white; font-size: 50px;">WriterTalks</h1>
-        <hr class="w3-border-grey" style="margin:auto;width:40%"><br>
-        
-          <h4 class="w3-animate-top" style="color: white;">Sign Up!</h4>
-          <div class="w-full max-w-xs">
-          <form class="bg-black shadow-md rounded px-8 pt-6 pb-8 mb-4">
-            <div class="mb-4">
-              <label class="block text-white text-sm font-bold mb-2 text-left" for="username">
-                First Name
-              </label>
-              <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="John">
-            </div>
-            <div class="mb-4">
-              <label class="block text-white text-sm font-bold mb-2 text-left" for="username">
-                Last Name
-              </label>
-              <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Hudson">
-            </div>
-            <div class="mb-4">
-              <label class="block text-white text-sm font-bold mb-2 text-left" for="username">
-                Email
-              </label>
-              <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="name@example.com">
-            </div>
-            <div class="mb-4">
-              <label class="block text-white text-sm font-bold mb-2 text-left" for="username">
-                Username
-              </label>
-              <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username">
-            </div>
-            <div class="mb-6">
-              <label class="block text-white text-sm font-bold mb-2 text-left" for="password">
-                Password
-              </label>
-              <input class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************">
-              <label class="block text-white text-sm font-bold mb-2 text-left" for="confirm_password">
-                Confirm Password
-              </label>
-              <input class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************">
-            </div>
-          
-            <div class="flex items-center justify-between">
-              
-              <button type="button" class="btn btn-secondary">Register</button>
-            </div>
-          </form>
-          <p class="text-center text-gray-500 text-xs">
-            &copy;2020 WriterTalks Corp. All rights reserved.
-          </p>
-        </div>
-        </center>
-      </div>
-    </div>
+    <div id="login-box">
+  <div class="left">
+    <h1>Sign up</h1>
+    
+    <input type="text" name="username" placeholder="Username" />
+    <input type="text" name="email" placeholder="E-mail" />
+    <input type="password" name="password" placeholder="Password" />
+    <input type="password" name="password2" placeholder="Retype password" />
+    
+    <input type="submit" name="signup_submit" value="Sign me up" />
+  </div>
+  
+  <div class="right">
+    <span class="loginwith">Sign in with<br />social network</span>
+    
+    <button class="social-signin facebook">Log in with facebook</button>
+    <button class="social-signin twitter">Log in with Twitter</button>
+    <button class="social-signin google">Log in with Google+</button>
+  </div>
+  <div class="or">OR</div>
+</div>
     
     </body>
 </html>
